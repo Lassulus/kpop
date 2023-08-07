@@ -31,7 +31,7 @@ kpop.write {
     '';
   };
   "/srv/http/stockholm" = {
-    type = "git';
+    type = "git";
     src = "https://cgit.krebsco.de/stockholm";
   };
   "/srv/http/stooockholm" = {
@@ -46,7 +46,7 @@ kpop.write {
     '';
   };
   "/var/lib/secrets" = {
-    type = "passwordstore;
+    type = "passwordstore";
     src = "$HOME/.password-store/hosts/somemagichost";
     name = "hosts/somemagichost";
   };
